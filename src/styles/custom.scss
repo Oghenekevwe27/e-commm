@@ -1,0 +1,63 @@
+@import './variables';
+
+
+.login-page{
+    background: white;
+    box-sizing: border-box;
+    text-align: center;
+    height: 100vh;
+    width: 50vw;
+    
+    
+}.login-container{
+    background: white;
+    
+.intro{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: -60px;
+}.sign-in{
+    margin-left: -60px;
+}
+}.logo-image{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: -100px;
+}.input-field{
+    text-align: start;
+    padding-left: 50px;
+    
+}input{
+    border: 0px solid;
+    border-radius: none;
+    background-color: transparent;
+    width: 200px;
+    color: #ccc;
+    height: 30px;
+    // outline: none;
+}.btn2{
+    width: 300px;
+    text-align: center;
+    margin-left: 100px;
+    border-radius: 0px;
+    @media screen and (max-width:768px) {
+        width: 100px;margin-left:20px
+        
+    }
+}.or {
+    padding-left: 150px;
+    font-weight: 700;
+    font-size: 12px;
+    @media screen and (max-width:768px) {
+        width: 20px;padding-left: 150px
+        
+    }
+}.quest {
+    display: inline-flex;
+}.login-option {
+    font-weight: 700;
+    font-size: 12px;
+
+}.no-account {
+    font-size: 14px;
+}

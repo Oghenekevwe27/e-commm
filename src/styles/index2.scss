@@ -1,0 +1,14 @@
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./var";
+
+body{
+    background-color: #E5E5E5;
+}
+
+
+*,html{
+    font-size: $basefont;
+    @media screen and(max-width:768px){font-size: 12px;}
+        
+    }

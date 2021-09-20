@@ -1,0 +1,122 @@
+
+/* Doreen*/
+
+
+
+.input-container2{
+  display:flex;
+  width:100%;
+  margin-bottom:25px;
+}
+.input-fields{
+  width:30%;
+  padding:10px;
+  outline:none;
+
+}
+.input-fields:focus{
+  border:2px solid dodgerblue;
+}
+// .btn{
+//   background-color:dodgerblue;
+//   color:white;
+//   padding: 15px 20px;
+//   border:none;
+//   cursor:pointer;
+//   width:20%;
+//   opacity:0.9;
+// }
+// .btn:hover{
+//   opacity: 1;
+// }
+ /* .box{
+  width:900px;
+  height:600px;
+  padding:20px;
+  margin:100px auto;
+  
+  border:10px solid dodgerblue;
+}  */
+.box{
+  display: flex;
+  max-width: 100%;
+}
+.div-image{
+  display:flex;
+  background-color:dodgerblue ;
+  flex: 1;
+  padding:10px ;
+  justify-content: center;
+  width: 350px;
+}
+.styleab{
+  padding-top: 25px;
+  padding-bottom:150px;
+  justify-content: center;
+  
+
+  
+}
+.contact-us{
+  position: relative;
+  font-size:10px ;
+  width:20vw;
+  align-items: center; 
+}
+h3{
+  justify-content:left ;
+  padding-bottom:20px ;
+}
+.contact{
+  color:white;
+  padding:35px 0 ;
+  padding-right: 20px;
+  margin: 20px 10px;
+  align-items: center;
+}
+.imgcontact {
+  width: 400px;
+}
+
+/* .form {
+  padding: 12px 10px ;
+} */
+/* .name {
+  margin-right: 10rem;
+} */
+.formdr{
+  /* display:flex; */
+  padding: 12px 10px ;
+  margin: 25px 30px;
+  background-color: #c4c4c4;
+  border:0.3px solid#c4c4c4;
+
+
+
+}
+input[type='text'] {
+
+  padding-left: 5rem ;
+  padding-right:2rem ;
+  height: 40px ; 
+}
+input[type='email'] {
+  padding-left: 5rem ;
+  padding-right:2rem ;
+  height: 40px ;
+}
+
+input[type='subject'] {
+  padding: 30rem ;
+} 
+/* .subject{
+margin-left:12px ;
+}  */
+
+textarea{
+  padding: 4rem;
+  margin-left: 12px;
+  height: 40px ;
+
+}
+
